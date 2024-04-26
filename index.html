@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+
+  <title>gameOtour</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="game.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="angular.js"></script>
+  <script src="ango.js"></script>
+
+</head>
+
+<body>
+  <section class="bg-img" style="background-image: url('./img/hero-bg.jpg')">
+    <header class="header" id="Header">
+      <h2 style="padding-left: 20px; color: rgb(214, 168, 0); ">gameOtour</h2>
+      <div class="navlinks">
+        <ul>
+          <li>
+            <a href="#home"> Home</a>
+          </li>
+          <li>
+            <a href="#News"> News</a>
+          </li>
+          <li>
+            <a href="#About"> About</a>
+          </li>
+          <li>
+            <a href="#New-game"> New game</a>
+          </li>
+          <li>
+            <a href="#Contact-Us"> Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+
+    <section class="section-hero" id="home" >
+      <div class="container">
+
+        <div class="hero-content">
+
+          <p class="hero-subtitle">World Gaming</p>
+
+          <h1 class="hero-title">
+            Create <span class="span">Manage</span> Matches
+          </h1>
+
+          <p class="hero-text">
+            Find technology or people for digital projects in public sector and Find an individual specialist develope
+            researcher.
+          </p>
+
+        </div>
+
+        <figure class="hero-banner img-holder" >
+          <img src="./img/hero-banner.png"  alt="hero banner" width="590" height="590" >
+        </figure>
+
+      </div>
+    </section>
+  </section>
+  <section class="section-brand">
+    <div class="containerr">
+
+      <ul class="brand-scrollbar">
+
+        <li class="brand-item">
+          <img src="./img/team-1.png" width="90" height="90" alt="team logo1">
+        </li>
+
+        <li class="brand-item">
+          <img src="./img/team-2.png" width="90" height="90" alt="team logo2">
+        </li>
+
+        <li class="brand-item">
+          <img src="./img/team-3.png" width="90" height="90" alt="team logo3">
+        </li>
+
+        <li class="brand-item">
+          <img src="./img/team-4.png" width="90" height="90" alt="team logo4">
+        </li>
+
+        <li class="brand-item">
+          <img src="./img/team-5.png" width="90" height="90" alt="team logo5">
+        </li>
+
+        <li class="brand-item">
+          <img src="./img/team-6.png" width="90" height="90" alt="team logo6">
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
+
+ <!-- 
+  - #LATEST GAME
+  -->
+  <div class="section-wrapper">
+
+    <section class="section-latest-game" aria-label="latest game" id="New-game">
+      <div class="game-container">
+        <div class="heading-section">
+          <p class="section-subtitle" style="font-weight: 300; font-size: x-large;">Latest Releases</p>
+
+          <h2 class="h2 section-title">
+            Create & <span class="span">Manage</span>
+          </h2>
+        </div>
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+          <ul class="has-scrollbar" data-slides>
+
+            <li class="scrollbar-item" data-active>
+              <div class="latest-game-card">
+
+                <figure class="card-banner img-holder" style="width: 400; height: 470;">
+                  <img src="./img/latest-game-1.jpg" width="70%" height="490"  alt="Wrold War Z"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Zombie</a>
+
+                  <h3 class="h3">
+                    <button><a href="#" class="card-title">Wrold War <span class="span">Z</span></a></button>
+                  </h3>
+
+                  <p class="card-price">
+                    Entry Fee : <span class="span">450</span>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="latest-game-card">
+
+                <figure class="card-banner img-holder" style="width: 400; height: 470;">
+                  <img src="./img/latest-game-2.jpg" width="70%" height="490" alt="GTA 5"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Adventure</a>
+
+                  <h3 class="h3">
+                    <button><a href="#" class="card-title">GTA <span class="span">V</span></a></button>
+                  </h3>
+
+                  <p class="card-price">
+                    Entry Fee : <span class="span">950</span>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="latest-game-card">
+
+                <figure class="card-banner img-holder" style="width: 400; height: 470;">
+                  <img src="./img/latest-game-3.png" width="70%" height="490"  alt="CSGO 2"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Action</a>
+
+                  <h3 class="h3">
+                    <button><a href="#" class="card-title">CSGO <span class="span">2</span></a></button>
+                  </h3>
+
+                  <p class="card-price">
+                    Entry Fee : <span class="span">Free</span>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="latest-game-card">
+
+                <figure class="card-banner img-holder" style="width: 400; height: 470;">
+                  <img src="./img/latest-game-4.jpg" width="70%" height="490"  alt="The Last Of Us"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Zombie</a>
+
+                  <h3 class="h3">
+                    <button><a href="#" class="card-title">The Last Of <span class="span">Us</span></a></button>
+                  </h3>
+
+                  <p class="card-price">
+                    Entry Fee : <span class="span">2000</span>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="latest-game-card">
+
+                <figure class="card-banner img-holder" style="width: 400; height: 470;">
+                  <img src="./img/latest-game-5.jpg" width="70%" height="490"  alt="Phasmophobia"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Horror</a>
+
+                  <h3 class="h3">
+                    <button><a href="#" class="card-title">Phasmo<span class="span">phobia</span></a></button>
+                  </h3>
+
+                  <p class="card-price">
+                    Entry Fee : <span class="span">425</span>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="scrollbar-item">
+              <div class="latest-game-card">
+
+                <figure class="card-banner img-holder" style="width: 400; height: 470;">
+                  <img src="./img/latest-game-6.jpg" width="70%" height="490"  alt="Hogwarts Legacy"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-badge skewBg">Adventure</a>
+
+                  <h3 class="h3">
+                    <button><a href="#" class="card-title">Hogwarts <span class="span">Legacy </span></a></button>
+                  </h3>
+
+                  <p class="card-price">
+                    Entry Fee : <span class="span">2200</span>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+    <!-- 
+          - #LIVE MATCH
+        -->
+
+    <section class="section-live-match" id="live" aria-label="live match">
+      <div class="live-container" id="About">
+
+        <h2 class="h2 section-title-2">
+          Watch Live <span class="span">Match</span>
+        </h2>
+        <div ng-controller="myController">
+          <img src="./img/live-match-banner.jpg" width="800" height="470" alt="Live Match Video"
+            class="img-cover" ng-mouseover="showText = true" ng-mouseleave="showText = false">
+
+          <div class="text-container" ng-if="showText">
+            <p>Welcome to our gaming website! We offer a wide range of cloud gaming services that allow you to play your
+              favorite games on any device, anywhere. Our platform is designed to provide a seamless and high-quality
+              gaming experience, with low latency and fast loading times.</p><br>
+
+            <p>With our cloud gaming service, you can access a vast library of games without the need for expensive
+              hardware or complicated setup.s all from the comfort of
+              your own home or on the go.</p><br>
+
+
+            <p>Our website is also a community for gamers, We are dedicated to providing a safe and inclusive space
+              for all gamers, regardless of skill level or experience.</p>
+
+            <p>Sign up now to start your cloud gaming journey and become part of our gaming community!</p>
+          </div>
+        </div>
+
+
+
+        <div class="live-match-player">
+
+          <figure class="player player-1 img-holder" style="width: 406; height: 277;">
+            <img src="./img/live-match-player-1.png" width="406" height="277"  alt="tokyo eagle"
+              class="w-100">
+          </figure>
+
+          <div class="live-match-detail">
+
+            <p class="live-match-subtitle">Upcoming Live Matches</p>
+
+            <time class="live-match-time" >08:30</time>
+
+          </div>
+
+          <figure class="player player-2 img-holder" style="width: 400; height: 305;">
+            <img src="./img/live-match-player-2.png" width="400" height="305"  alt="new york hunter7"
+              class="w-100">
+          </figure>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+  </div>
+  <section class="section blog" id="blog" aria-label="blog">
+    <div class="containerr-live" id="News">
+      <div class="cont-live">
+        <h2 class="h2 section-title" style="color: black;">
+          Latest News & <span class="span">Articles</span>
+        </h2>
+
+        <p class="section-text">
+          Compete With 100 Players On A Remote Island For Winner Takes Showdown Known Issue Where Certain Skin
+          Strategic
+        </p>
+      </div>
+      <ul class="blog-list" ng-controller="myController">
+
+        <li ng-repeat="blog in blogs">
+          <div class="blog-card">
+
+            <figure class="card-banner img-holder" style="width: 400; height: 290;">
+              <img alt="Loading..." src="{{blog.image}}" width="400" height="290">
+            </figure>
+
+            <div class="card-content">
+
+              <h3>
+                <a href="#" class="card-news-title">{{blog.title}}</a>
+              </h3>
+
+
+
+              <span class="span"><button class="card-link" ng-click="blog.showDescription = !blog.showDescription"> Read
+                  More </button></span>
+
+              <p class="card-text" ng-show="blog.showDescription">
+                {{blog.description}}
+              </p>
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+
+    </div>
+  </section>
+  <footer id="Contact-Us">
+    <div class="footerContainer">
+      <div class="socialIcons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-google-plus"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="footerNav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#News">News</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#New-game">New games</a></li>
+          <li><a href="#Contact-Us">Contact Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footerBottom">
+      <p>Copyright &copy;2023; Designed by <span class="span">gameOtour</span></p>
+    </div>
+  </footer>
+</body>
+
+</html>
